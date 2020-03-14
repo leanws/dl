@@ -1,0 +1,41 @@
+.tc-arab{fill:#34805F; stroke-width:2px}
+.tc-arab:nth-child(1) {stroke:white}
+.tc-arab:nth-child(2) {stroke:#34805F; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-arab:nth-child(3) {stroke:#34805F; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+@keyframes stroke-offset{50%{stroke-dashoffset:50%}}
+.tc-russ{fill:#D51F22; stroke-width:2px}
+.tc-russ:nth-child(1) {stroke:white}
+.tc-russ:nth-child(2) {stroke:#D51F22; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-russ:nth-child(3) {stroke:#D51F22; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-germ{fill:black; stroke-width:2px}
+.tc-germ:nth-child(1) {stroke:white}
+.tc-germ:nth-child(2) {stroke:black; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-germ:nth-child(3) {stroke:black; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-spani{fill:#EDB700; stroke-width:2px}
+.tc-spani:nth-child(1) {stroke:white}
+.tc-spani:nth-child(2) {stroke:#EDB700; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-spani:nth-child(3) {stroke:#EDB700; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+
+.tc-somali{fill:#3F8ADE; stroke-width:2px}
+.tc-somali:nth-child(1) {stroke:white}
+.tc-somali:nth-child(2) {stroke:#3F8ADE; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-somali:nth-child(3) {stroke:#3F8ADE; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+
+.tc-italy{fill:url(#itflag); stroke:#325896; stroke-width:1px}
+.tc-amhar{fill:url(#ethflag); stroke:#498800; stroke-width:1px}
+
+#slogan{margin-bottom:1ex}
+
+div.srv{ /* services */
+    width:30%;
+    font-family:dvsb;
+    text-align:center;
+    display:inline-block;
+    position:relative}
+
+div.LN{height:1.9ex; margin-top:0;margin-bottom:1ex;display:inline-block;position:relative;top:1ex} /* language names */
+
+/* @media (min-width:1081px) and (max-width:1260px){.LN{margin:0 1ex}} */
+/* @media (min-width:901px) and (max-width:1080px){.LN{margin:0 6ex}} */
+/* @media (min-width:671px) and (max-width:900px){.LN{margin:0 4ex}} */
+/* @media (max-width:670px){.LN{margin:0 1ex}} */

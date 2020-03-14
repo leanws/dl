@@ -1,0 +1,10 @@
+@font-face{font-display:fallback;font-family:"dvsb";src:url("dvsb.woff");}
+@font-face{font-display:fallback;font-family:"ar";src:url("ar.woff");}
+/* ========= */
+@font-face{font-display:fallback;font-family:local;src:url("local.woff");}
+
+@font-face{font-display:fallback;font-family:"few icons";src:url("awesome.woff");}
+@font-face{font-display:fallback;font-family:"Free Sans";src:url("we.otf");}
+@font-face{font-display:fallback;font-family:"Gillius";src:url("Gillius.woff");}
+@font-face{font-display:fallback;font-family:'Free Serif Italic';src:url('free-serif-italic.woff');}
+@font-face{font-display:fallback;font-family:'Linux Libertine';src:url('LinLibertine_R.otf')}
