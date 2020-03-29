@@ -3,9 +3,8 @@
 #DL{display:block;font-family:dvsb;width:19ex}
 @media(max-width:385px){#DL{width:10ex}}
 
-img { max-width: 100%; }
-a{color:#42507F}
-a{text-decoration:none}
+img{max-width: 100%}
+a{color:#42507F;text-decoration:none}
 p{margin:1em}
 html{scroll-behavior:smooth} /* ;background:#414141 */
 
@@ -60,7 +59,7 @@ html{scroll-behavior:smooth} /* ;background:#414141 */
     div.srv{font-size:120%}
     div.LN{font-size:220%}
     #slogan,div.srv,#contactus{background-color:rgba(255,255,255,.6)}
-    #slogan{font-size:210%}
+    #slogan{font-size:190%}
     #contactus{font-size:120%}}
 
 @media(min-width:621px){ #srv{display:inline-block}}

@@ -3,10 +3,10 @@
 .tc-arab:nth-child(2) {stroke:#34805F; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
 .tc-arab:nth-child(3) {stroke:#34805F; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
 @keyframes stroke-offset{50%{stroke-dashoffset:50%}}
-.tc-russ{fill:#D51F22; stroke-width:2px}
+.tc-russ{fill:#B21A00; stroke-width:2px}
 .tc-russ:nth-child(1) {stroke:white}
-.tc-russ:nth-child(2) {stroke:#D51F22; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
-.tc-russ:nth-child(3) {stroke:#D51F22; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-russ:nth-child(2) {stroke:#B21A00; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
+.tc-russ:nth-child(3) {stroke:#B21A00; stroke-dashoffset:4%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
 .tc-germ{fill:black; stroke-width:2px}
 .tc-germ:nth-child(1) {stroke:white}
 .tc-germ:nth-child(2) {stroke:black; stroke-dashoffset:0%; stroke-dasharray:5% 10%; animation:stroke-offset 40s infinite linear}
