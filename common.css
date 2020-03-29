@@ -19,13 +19,13 @@ html{scroll-behavior:smooth} /* ;background:#414141 */
 
 @media(min-width:1401px){
     div.srv{font-size:230%}
-    #slogan{font-size:340%}
+    #slogan{font-size:300%}
     #contactus{font-size:170%}
     #DL{font-size:400%}}
 
 @media(min-width:1301px) and (max-width:1400px){
     div.srv{font-size:200%}
-    #slogan{font-size:300%}
+    #slogan{font-size:270%}
     #contactus{font-size:150%}
     #DL{font-size:300%}}
 
@@ -40,7 +40,7 @@ html{scroll-behavior:smooth} /* ;background:#414141 */
     #slogan,div.srv{background-color:rgba(255,255,255,.6)}
     #DL{font-size:300%}
     div.srv{font-size:170%}
-    #slogan{font-size:250%}
+    #slogan{font-size:230%}
     #contactus{font-size:140%}}
 
 @media(min-width:751px) and (max-width:1000px){
@@ -51,7 +51,7 @@ html{scroll-behavior:smooth} /* ;background:#414141 */
     .LN.middle{margin-left: 2ex; margin-right: 2ex}
     .LN.last2{margin-left: 4ex; margin-right: 4ex}
     #slogan,div.srv{background-color:rgba(255,255,255,.6)}
-    #slogan{font-size:230%}
+    #slogan{font-size:210%}
     #contactus{font-size:130%}}
 
 @media(max-width:750px){
