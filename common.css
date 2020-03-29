@@ -70,7 +70,7 @@ html{scroll-behavior:smooth} /* ;background:#414141 */
     #tinyMenu{display:none}
     #obtn{display:none}}
 
-#tinyMenu{background-color:rgba(167,167,167,.3);border-radius:15%;}
+/* #tinyMenu{background-color:rgba(167,167,167,.3);border-radius:15%;} */
 #tinyMenu> i{
     display:block;
   width: 35px;
