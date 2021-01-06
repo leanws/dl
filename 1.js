@@ -25,10 +25,11 @@ try{eval("var bar=(x)=> x+1");
 }catch(e){return false}
 return true})()};
 capability.promises=typeof Promise !=="undefined" && Promise.toString().indexOf("[native code]") !==-1;
-const CDN='https://cdn.leanws.com/';
+// const CDN='https://cdn.leanws.com/';
+const CDN='cdn/';
 var Packages={
-    'DL':{'name':'dl.js'},
-'WE':{'name':CDN+'fonts/we.css'},
+'DL':{'name':'dl.js'},
+'WE':{'name':'f/we.css'},
 'TimePicker':{'name':CDN+'jquery.timepicker.min.js'},
 'validator':{'name':'https://cdnjs.cloudflare.com/ajax/libs/validator/11.1.0/validator.min.js'},
 'md5':{'name':CDN+'md5.min.js'},

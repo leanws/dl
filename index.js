@@ -36,12 +36,13 @@ var capability={"to":(function(){
 
 capability.promises=typeof Promise !== "undefined" && Promise.toString().indexOf("[native code]") !== -1;
 
-const CDN='https://cdn.leanws.com/';
+// const CDN='https://cdn.leanws.com/';
+const CDN='cdn/';
 var Packages={'chat':{'name':'ochat.js', // used by load (see below) to store initialization data
 		      'reqCapabilities':['SSE','WS'],
 		      'preload':['KO','ochat.html','ochat.css']},
 	      'LWS':{'name':'leanws.js','init':{'preloader':false}},
-	      'WE':{'name':CDN+'fonts/we.css'},
+	      'WE':{'name':'f/we.css'},
 	      'TimePicker':{'name':CDN+'jquery.timepicker.min.js'},
 	      'validator':{'name':'https://cdnjs.cloudflare.com/ajax/libs/validator/11.1.0/validator.min.js'},
 	      'md5':{'name':CDN+'md5.min.js'},
